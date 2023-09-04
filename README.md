@@ -31,6 +31,8 @@ Only `Accept: application/json` is valid, anything else returns error `406 Not a
 
 ## Running the application
 
+By default the application runs on port `8080`
+
 Please specify a `GITHUB_TOKEN` env variable for increased rate limits, for example with a `.env` file in the root the
 project. If not specified, GitHub applies strict rate limits.
 
